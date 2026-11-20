@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="has-background-black" lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,7 +31,9 @@
     });
   </script>
 </head>
+
 <body>
+  <!-- START NAV -->
   <nav class="navbar has-background-black">
     <div class="navbar-brand">
       <a class="navbar-item" href="#">
@@ -62,7 +65,12 @@
       </div>
     </div>
   </nav>
-  <main class="columns">
+  <!-- END NAV -->
+
+  <main class="columns is-multiline box has-background-grey-darker">
+    <div class="column is-12 has-text-centered has-text-white">
+      <p class="is-size-1">My Playlists</p>
+    </div>
     <div class="column is-4">
       <section class="card has-text-centered">
         <header class="card-header">
@@ -82,46 +90,4 @@
         </article>
         <footer class="card-footer">
           <button class="card-footer-item button has-background-grey-lighter">Play</button>
-          <button class="card-footer-item button has-background-grey-lighter">Open</button>
-          <button class="card-footer-item button has-background-grey-lighter">Remove</button>
-        </footer>
-      </section>
-    </div>
-    <div class="column is-4">
-      <section class="card has-text-centered dotify-card">
-        <header class="card-header">
-        </header>
-        <div class="card-image">
-        </div>
-        <article class="card-content">
-          <p>Placeholder content</p>
-        </article>
-        <footer class="card-footer">
-        </footer>
-      </section>
-    </div>
-    <div class="column is-4">
-      <section class="card has-text-centered dotify-card">
-        <header class="card-header">
-        </header>
-        <div class="card-image">
-        </div>
-        <article class="card-content">
-          <p>Placeholder content</p>
-        </article>
-        <footer class="card-footer">
-        </footer>
-      </section>
-    </div>
-  </main>
-  <footer class="footer has-background-black has-text-white">
-    <div class="container">
-      <div class="content has-text-centered">
-        <p>
-          <img class="image is-16x16 is-inline" src="/images/logo-white.png" alt="dotify"> Dotify - Your.Music
-        </p>
-      </div>
-    </div>
-  </footer>
-</body>
-</html>
+          <button class="card-footer-item button has-background-grey-lighter">Open
